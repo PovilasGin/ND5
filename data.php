@@ -32,7 +32,7 @@
     
 
         $file = 'people.txt';
-$data = "/n".'name'.date('m-d-Y_H:i:s');
+$data = 'name'.date('m-d-Y_H:i:s')."/n";
 if(!file_exists($file)){
     
     file_put_contents($file, $data);
